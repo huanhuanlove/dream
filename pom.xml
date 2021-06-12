@@ -8,6 +8,13 @@
     <artifactId>dream</artifactId>
     <version>1.0-SNAPSHOT</version>
     <description>聚合服务</description>
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.5.1</version>
+        </dependency>
+    </dependencies>
     <packaging>pom</packaging>
 
     <name>kang dream</name>
@@ -27,6 +34,7 @@
     </properties>
 
     <modules>
+        <module>dream-common</module>
         <module>dream-product</module>
         <module>dream-ware</module>
         <module>dream-order</module>
