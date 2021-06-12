@@ -1,0 +1,36 @@
+**/mvnw
+**/mvnw.cmd
+**/.mvn
+**/target/
+.idea
+*.iml
+**/HELP.md
+**/node_modules
+**/test.sql
+package-lock.json
+**/dist
+.classpath
+.factorypath
+.vscode
+.settings
+.project
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
